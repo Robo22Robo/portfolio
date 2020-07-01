@@ -1,0 +1,14 @@
+$company-color: green;
+
+h1 {
+    color: $company-color;
+    border-bottom: 3px solid $company-color;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    color: $company-color;
+}
