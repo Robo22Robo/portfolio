@@ -10778,17 +10778,4 @@ button.close {
     display: inline-flex !important;
   }
 }
-
-h1, .h1 {
-  color: green;
-  border-bottom: 3px solid green;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul li {
-  color: green;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
