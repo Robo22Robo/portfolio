@@ -10783,4 +10783,8 @@ button.close {
   background-color: #323232;
   height: 400px;
 }
+
+.navbar-dark .navbar-brand {
+  color: yellow;
+}
 /*# sourceMappingURL=style.css.map */
