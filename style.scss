@@ -1,13 +1,17 @@
+$font-size-base: 0.75rem;
+
 @import "lib/bootstrap/scss/bootstrap";
 
 .page-header {
   background-image: url("image/header-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 400px;
 }
 
 .navbar-dark .navbar-brand {
   color: #fed136;
   font-style: italic;
+  padding-top: 0.19rem;
 }
