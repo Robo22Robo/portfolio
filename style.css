@@ -10780,11 +10780,14 @@ button.close {
 }
 
 .page-header {
-  background-color: #323232;
+  background-image: url("image/header-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 400px;
 }
 
 .navbar-dark .navbar-brand {
-  color: yellow;
+  color: #fed136;
+  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */
