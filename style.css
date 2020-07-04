@@ -10836,4 +10836,26 @@ button.close {
   margin-bottom: 15px;
   text-shadow: 0px 0px 2px black;
 }
+
+.technologies {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.technologies h4, .technologies .h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.technologies-icon {
+  border: 2px solid #fed136;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fed136;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 0px auto 0.6rem auto;
+}
 /*# sourceMappingURL=style.css.map */
