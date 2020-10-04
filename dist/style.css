@@ -10206,5 +10206,12 @@ button.close {
 }
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f7f7f7;
+}
+
+.aboutus {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
