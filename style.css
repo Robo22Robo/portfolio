@@ -10869,4 +10869,9 @@ button.close {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.aboutus .aboutus-image {
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
+}
 /*# sourceMappingURL=style.css.map */

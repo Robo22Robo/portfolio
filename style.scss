@@ -3,6 +3,7 @@ $primary: #fed136;
 $header-description-height: 400px;
 $text-shadow: 0px 0px 2px black;
 $section-padding: 120px;
+$section-color-alternate: #f7f7f7;
 
 @import "lib/bootstrap/scss/bootstrap";
 
@@ -81,10 +82,16 @@ $section-padding: 120px;
 .portfolio {
   padding-top: $section-padding;
   padding-bottom: $section-padding;
-  background-color: #f7f7f7;
+  background-color: $section-color-alternate;
 }
 
 .aboutus {
   padding-top: $section-padding;
   padding-bottom: $section-padding;
+
+
+  .aboutus-image {
+    border-radius: 50%;
+    border: 5px solid $section-color-alternate;
+  }
 }
