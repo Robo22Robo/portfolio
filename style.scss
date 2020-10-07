@@ -4,6 +4,7 @@ $header-description-height: 400px;
 $text-shadow: 0px 0px 2px black;
 $section-padding: 120px;
 $section-color-alternate: #f5f5f5;
+$round-image-border: 5px;
 
 @import "lib/bootstrap/scss/bootstrap";
 
@@ -94,7 +95,7 @@ $section-color-alternate: #f5f5f5;
 
   .aboutus-image {
     border-radius: 50%;
-    border: 5px solid $section-color-alternate;
+    border: $round-image-border solid $section-color-alternate;
   }
 
   @include media-breakpoint-up(md) {
@@ -118,4 +119,9 @@ $section-color-alternate: #f5f5f5;
   padding-top: $section-padding;
   padding-bottom: $section-padding;
   background-color: $section-color-alternate;
+
+  .team-image {
+    border-radius: 50%;
+    border: $round-image-border solid white;
+  }
 }

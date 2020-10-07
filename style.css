@@ -10889,4 +10889,9 @@ button.close {
   padding-bottom: 120px;
   background-color: #f5f5f5;
 }
+
+.team .team-image {
+  border-radius: 50%;
+  border: 5px solid white;
+}
 /*# sourceMappingURL=style.css.map */
