@@ -124,4 +124,18 @@ $round-image-border: 5px;
     border-radius: 50%;
     border: $round-image-border solid white;
   }
+  .team-social-media {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
