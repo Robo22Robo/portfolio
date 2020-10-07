@@ -10227,3 +10227,9 @@ button.close {
     background-color: white;
   }
 }
+
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f5f5f5;
+}
