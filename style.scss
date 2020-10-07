@@ -3,7 +3,7 @@ $primary: #fed136;
 $header-description-height: 400px;
 $text-shadow: 0px 0px 2px black;
 $section-padding: 120px;
-$section-color-alternate: #f7f7f7;
+$section-color-alternate: #f5f5f5;
 
 @import "lib/bootstrap/scss/bootstrap";
 
@@ -51,6 +51,7 @@ $section-color-alternate: #f7f7f7;
     margin-bottom: 0px;
     text-shadow: $text-shadow;
   }
+
   h1 {
     margin-top: 10px;
     margin-bottom: 15px;
@@ -62,6 +63,7 @@ $section-color-alternate: #f7f7f7;
   padding-top: $section-padding;
   padding-bottom: $section-padding;
   text-align: center;
+
   h4 {
     font-size: 1.3rem;
     margin-bottom: 1.3rem;
@@ -93,5 +95,21 @@ $section-color-alternate: #f7f7f7;
   .aboutus-image {
     border-radius: 50%;
     border: 5px solid $section-color-alternate;
+  }
+
+  @include media-breakpoint-up(md) {
+    .aboutus-list {
+      background: linear-gradient(to right,
+          white 0%,
+          white calc(50% - 1px),
+          $section-color-alternate calc(50% - 1px),
+          $section-color-alternate calc(50% + 1px),
+          white calc(50% + 1px),
+          white 100%);
+
+      .row:last-child {
+        background-color: white;
+      }
+    }
   }
 }

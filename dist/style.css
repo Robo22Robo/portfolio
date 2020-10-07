@@ -10208,7 +10208,7 @@ button.close {
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #f7f7f7;
+  background-color: #f5f5f5;
 }
 
 .aboutus {
@@ -10217,5 +10217,13 @@ button.close {
 }
 .aboutus .aboutus-image {
   border-radius: 50%;
-  border: 5px solid #f7f7f7;
+  border: 5px solid #f5f5f5;
+}
+@media (min-width: 768px) {
+  .aboutus .aboutus-list {
+    background: linear-gradient(to right, white 0%, white calc(50% - 1px), #f5f5f5 calc(50% - 1px), #f5f5f5 calc(50% + 1px), white calc(50% + 1px), white 100%);
+  }
+  .aboutus .aboutus-list .row:last-child {
+    background-color: white;
+  }
 }
